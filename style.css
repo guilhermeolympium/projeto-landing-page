@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+
+#head-menu {
+    background-image: url(images/head-menu-background.svg);
+    color: #FFFFFF;
+}
+
+#logo {
+    margin: 52px 0 0 56px;
+}
+
+#head-menu-title {
+    margin: 71px 0 32px 172px;
+}
+
+#head-menu-text {
+    margin: 0 0 0 172px;
+    padding-bottom: 151px;
+}
+
+#informational-menu {
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icons {
+    margin: 67px 0 67px 174px;
+    padding-right: 17px;
+}
+
+.informational-text {
+    display: flex;
+    align-items: center;
+}
+
+#video-section {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#video {
+    margin: 80px 64px 80px 174px;
+}
+
+#video-title {
+    color: #247BA0;
+    margin-top: 97px;
+}
+
+#carousel {
+    background-color: #247BA0;
+    padding: 50px;
+}
+
+#carousel-title {
+    font-size: 32px;
+    color: #EAECE5;
+    text-align: center;
+}
+
+#carousel-cards {
+    margin-top: 64px;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 32px;
+}
+
+.card {
+    height: 132px;
+    width: 532px;
+    padding: 0;
+}
+
+#left-arrow {
+    display: none;
+}
+
+#Bruna {
+    display: none;
+}
+
+.arrow {
+    margin-top: 25%;
+    cursor: pointer;
+}
+
+.arrow:hover {
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
+
+#form {
+    text-align: center;
+    margin-bottom: 109px;
+}
+
+#form-title {
+    font-size: 32px;
+    margin: 22px 248px 47px;
+    color: #383838;
+}
+
+input {
+    width: 413px;
+    height: 53px;
+    background-color: #EAECE5;
+    margin-bottom: 40px;
+    border: 0;
+    border-radius: 8px;
+    padding: 15px 20px;
+}
+
+button {
+    background-color: #247BA0;
+    border-radius: 8px;
+    width: 335px;
+    height: 55px;
+    color: #FFFFFF;
+    border: 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #318FB8;
+    color: white;
+    transform: translateY(-10px);
+    box-shadow: 0px 20px 40px #073d53be;
+    transition-duration: 0.5s;
+}
